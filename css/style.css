@@ -9,6 +9,10 @@
   font-size: 1.4rem;
   padding-right:20px;
 }
+
+.nav-item:hover{
+      font-weight: bold;
+}
 .nav-item:last-child{
   padding-right: 0;
 }
@@ -35,4 +39,18 @@
       font-size:4rem;
     
   }
+}
+#authors img{
+     margin-top:-60px;
+}
+
+#authors .card:hover{
+  background:rgb(111, 154, 218);
+  color: #fff;
+}
+#authors .fa{
+  font-size:25px;
+}
+#authors .fa:hover{
+  color: #fff;
 }
